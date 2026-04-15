@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "CarbonWatch",
+  "version": "1.0.0",
+  "description": "Track the carbon footprint of every page you visit.",
+  "permissions": ["storage", "scripting", "webNavigation", "activeTab", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "CarbonWatch"
+  }
+}
