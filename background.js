@@ -1,7 +1,7 @@
 const GREENCHECK_API = 'https://api.thegreenwebfoundation.org/api/v3/greencheck';
 const CARBON_API     = 'https://api.websitecarbon.com/data';
 const MAX_HISTORY    = 500;
-const SETTLE_MS      = 2500; // delay for loading resources
+const SETTLE_MS      = 2500;
 
 // Sums transferSize across navigation and all resource entries.
 // Falls back to encodedBodySize for entries listing 0 bytes
