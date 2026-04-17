@@ -1,6 +1,6 @@
 'use strict';
 
-// Maps rating to CSS colors
+// Rating colors for carbon emissions
 const RATING_COLORS = {
   A: 'var(--rating-a)',
   B: 'var(--rating-b)',
